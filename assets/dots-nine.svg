@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" id="DotsNine">
+  <rect width="256" height="256" fill="none"></rect>
+  <circle cx="60" cy="60" r="10" fill="#939393" class="color000000 svgShape"></circle>
+  <circle cx="128" cy="60" r="10" fill="#939393" class="color000000 svgShape"></circle>
+  <circle cx="196" cy="60" r="10" fill="#939393" class="color000000 svgShape"></circle>
+  <circle cx="60" cy="128" r="10" fill="#939393" class="color000000 svgShape"></circle>
+  <circle cx="128" cy="128" r="10" fill="#939393" class="color000000 svgShape"></circle>
+  <circle cx="196" cy="128" r="10" fill="#939393" class="color000000 svgShape"></circle>
+  <circle cx="60" cy="196" r="10" fill="#939393" class="color000000 svgShape"></circle>
+  <circle cx="128" cy="196" r="10" fill="#939393" class="color000000 svgShape"></circle>
+  <circle cx="196" cy="196" r="10" fill="#939393" class="color000000 svgShape"></circle>
+</svg>

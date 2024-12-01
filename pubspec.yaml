@@ -1,0 +1,45 @@
+name: uberclone
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.10+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/dots-nine.svg
+    - assets/billicon1.png
+    - assets/billicon2.png
+    - assets/uberbike.webp
+    - assets/uberauto.webp
+    - assets/ubserstorepickup.svg
+    - assets/package.png
+  fonts:
+    - family: ubermove
+      fonts:
+         - asset: fonts/UberMoveBold.otf
+         - asset: fonts/UberMoveMedium.otf
+
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
