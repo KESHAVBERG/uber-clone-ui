@@ -35,6 +35,15 @@ flutter:
     - assets/uberauto.webp
     - assets/ubserstorepickup.svg
     - assets/package.png
+    - assets/bookauto.jpg
+    - assets/bookmoto.webp
+    - assets/bookintracity.webp
+    - assets/Services/interacity.png
+    - assets/Services/rentals.png
+    - assets/Services/reserve.png
+    - assets/Services/rides.png
+    - assets/Services/shop.png
+    - assets/Services/Courier.png
   fonts:
     - family: ubermove
       fonts:

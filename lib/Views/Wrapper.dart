@@ -24,9 +24,9 @@ class _WrapperState extends State<Wrapper> {
     return Scaffold(
       bottomNavigationBar: Container(
         child: Container(
-          padding: EdgeInsets.all(10),
+          padding: EdgeInsets.fromLTRB(25, 5,25,15),
           child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               IconButton(
                   onPressed: () {
@@ -36,7 +36,7 @@ class _WrapperState extends State<Wrapper> {
                   },
                   icon: Icon(Icons.home,
                       color: currentIdx == 0 ? Colors.black : Colors.grey,
-                      size: 40)),
+                      size: 30)),
               GestureDetector(
                   onTap: () {
                     setState(() {
@@ -44,8 +44,8 @@ class _WrapperState extends State<Wrapper> {
                     });
                   },
                   child: Container(
-                      height: 50,
-                      width: 50,
+                      height: 40,
+                      width: 40,
                       child: SvgPicture.asset(
                         'assets/dots-nine.svg',
                         colorFilter: ColorFilter.mode(
@@ -59,8 +59,8 @@ class _WrapperState extends State<Wrapper> {
                   });
                 },
                 child: Container(
-                    height: 50,
-                    width: 50,
+                    height: 30,
+                    width: 30,
                     child: currentIdx != 2
                         ? Image.asset('assets/billicon1.png')
                         : Image.asset('assets/billicon2.png')),
@@ -74,7 +74,7 @@ class _WrapperState extends State<Wrapper> {
                   icon: Icon(
                     Icons.person,
                     color:currentIdx == 3?Colors.black: Colors.grey,
-                    size: 40,
+                    size: 30,
                   )),
             ],
           ),
