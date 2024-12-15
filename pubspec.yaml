@@ -44,6 +44,8 @@ flutter:
     - assets/Services/rides.png
     - assets/Services/shop.png
     - assets/Services/Courier.png
+    - assets/activity/map.jpeg
+    - assets/activity/selective.png
   fonts:
     - family: ubermove
       fonts:
